@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Neu UI
 
-## Available Scripts
+![github issues shield](https://img.shields.io/github/issues/daniel-norris/neumorphic_design)
+![circleci](https://img.shields.io/circleci/build/github/daniel-norris/neu_ui/master?label=circleci)
+![releases](https://img.shields.io/github/v/release/daniel-norris/neu_ui?include_prereleases)
+![github licence](https://img.shields.io/github/license/daniel-norris/neu_ui)
+![github commit activity shield](https://img.shields.io/github/commit-activity/m/daniel-norris/neumorphic_design)
+![twitter](https://img.shields.io/twitter/follow/danielpnorris)
 
-In the project directory, you can run:
+Prototype and build projects faster using Neu UI - the neumorphic React component library.
 
-### `npm start`
+## Contents
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- ❓ About
+- 🚀 Getting Started
+- 👏 Contributing
+- 📝 License
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## About
 
-### `npm test`
+Neu UI started life as a small side project exploring UI component design and development using neumorphic design.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The style was originally conceptualised by [Alexander Plyuto](https://dribbble.com/alexplyuto) in late 2019 and "neumorphism", a mixture between skeumorphism and material design, was coined by Michal Malewicz shortly afterwards.
 
-### `npm run build`
+For further information about the design, it's worthwhile taking a look at Alexander Plyuto's guide [here](https://www.figma.com/file/J1uPSOY5k577mDpSfGFven/Neomorphism-Guide-2.0-%7C-Original?node-id=26580%3A1425).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The initial components have now been converted and extended to include a whole suite of initial controlled form and card components into a React library.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+We are looking for anyone interested in contributing, for further information check out the contribution section below.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+#### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Installing using `npm`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm i ui-neu
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Installing using `yarn`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+yarn add ui-neu
+```
 
-## Learn More
+Import a component.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+import { Card } from 'ui-neu'
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+If you're interested in contributing, I'm happy to accept any support from documentation, to bugfixes to new feature improvements.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Pull requests and ⭐ stars are welcome!
+- Read the [contribution guide](/contributing.md) to get started
 
-### Analyzing the Bundle Size
+Looking for a first issue to take on?
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Look out for "good first issue" labels
+- Reach out to me, [Dan](https://twitter.com/danielpnorris) on Twitter
 
-### Making a Progressive Web App
+## Licence
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is [MIT](/LICENCE) licenced.
