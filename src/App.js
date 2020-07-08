@@ -25,11 +25,11 @@ const App = () => {
           />
         </div>
         <div style={{ display: "flex" }}>
-          <a href="https://daniel-norris.github.io/neu_ui_docs">
+          <a href="https://neu-ui-docs.netlify.app/?path=/docs/getting-started--page">
             <Button>Getting started</Button>
           </a>
           <a
-            href="https://daniel-norris.github.io/neu_ui_docs"
+            href="https://neu-ui-docs.netlify.app/?path=/docs/button--standard"
             className="ml-1"
           >
             <Button>Components</Button>
