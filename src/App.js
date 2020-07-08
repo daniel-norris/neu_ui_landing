@@ -6,9 +6,7 @@ const App = () => {
   return (
     <div className="main">
       <main>
-        <h1 className="display-1">
-          Neu UI<span className="display-4 ml-1">v 0.1.15-2</span>
-        </h1>
+        <h1 className="display-1">Neu UI</h1>
         <h3 className="display-3">
           Prototype and build projects faster using Neu UI - an open source
           React component library designed to neumorphic style.
